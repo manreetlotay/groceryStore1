@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- link css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--link Font Awesome Icons; load all styles-->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		
+		
+		<title> Login </title>
+	</head>
+		
+	<body>
+	
+		<!-- navbar links-->
+		<div class="navBar>
+			<ul id="mainNavBar">
+				<li><a href="----">Home</a></li>     <!--add links of nav bar elements-->
+				<li><a href="------">Aisles</a></li>
+				<li><a href="------">Contact</a></li>
+				
+				<!-- navbar logos-->
+				<i class="fas fa-user"></i>
+				<i class="fas fa-shopping-cart"></i>
+			</ul>
+	
+		</div>
+	
+		<form action="action_page.php" method="post">
+			<div class="loginpage">
+				<h3> Login <hr></hr> </h3>
+			
+
+				<input type="text" name="email" placeholder="Enter email"><br><br>
+				<input type="password" name="password" placeholder="Enter password"><br>
+				<a href="url"><i>Forgot Password?</i></a>
+				<br>
+				<input type="submit" id="submit" value="Submit">
+				
+			</div>
+		</form>	
+			
+		
+	
+		
+	
+	
+	</body>
+
+</html>
